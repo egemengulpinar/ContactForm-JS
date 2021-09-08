@@ -1,0 +1,126 @@
+
+
+
+<style>
+.center {
+ 
+ 
+  margin-left: auto;
+    margin-right: auto;
+    width: 50em
+}
+</style>
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ <link href="{% static 'style.css' %}" rel="stylesheet" />
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <div>
+ <br>
+ <br>
+
+
+ <div class="card-block">
+  <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 text-center">                        
+        <h2 ></h2>
+      </div>
+      
+  </div>
+  <div  style="margin-left:21%">
+  <h4 style="color:#007bff;font-size:40px;font-weight:600;">Contact Us</h4>
+  <br>
+                                           
+                                            </div>
+  <div class="row" align="left" style="margin-left:20%"> 
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3">
+          <form id="form"> 
+          
+              <div class="form-group">
+                  
+                  <input type="text" class="form-control" id="Isminiz" name="Isminiz" placeholder="Name" tabindex="1" required>
+              </div>    
+                                     
+              <div class="form-group">
+                  
+                  <input type="email" class="form-control" id="Email_Adresiniz" name="Email_Adresiniz" placeholder="E-Mail Address" tabindex="2" required>
+              </div>     
+               <div class="form-group">
+                  
+                  <input type="text" class="form-control" id="Telefon_Numaraniz" name="Telefon_Numaraniz" placeholder="Telephone Number" tabindex="3" required>
+              </div>                          
+              <div class="form-group">
+                  
+                  <input type="text" class="form-control" id="Konu" name="Konu" placeholder="Topic " tabindex="4">
+              </div>                            
+              <div class="form-group">
+                  
+                  <textarea rows="5" cols="50" name="Mesajiniz" class="form-control" id="Mesajiniz" placeholder="Your Message..." tabindex="5" required></textarea>                                 
+              </div>
+              
+              <div class="text-center" >
+                  <button type="submit" id="button" value="Mesajı Gönder" style="color:white" class="btn btn-primary">Send</button>
+              </div>
+              
+          </form>
+          
+      </div>
+     
+      <div class="form-group row" >
+   <div align="right" style="margin-left:-90px">
+                                        <div class="col-md-8 offset-md-2">
+                                          <div align="left">
+                                            
+                                           
+                                            <p align="justify"style="color:#808080"><span class="fa fa-2x fa-home" style="color:#007bff"></span>  &#160 1777 Pearl Street Sacramento CA, 95827</p>
+                                            
+                                            <p style="color:#808080"><span class="fa fa-2x fa-phone" style="color:#007bff"> &#160 </span>916-369-5320</p>
+                                              <p style="color:#808080">  &#160  &#160 &#160 &#160  &#160 916-369-5321</p>
+                                            <p style="color:#808080"><span class="fa fa-2x fa-envelope-square" style="color:#007bff"></span> &#160 E-mail: <a href="#">egemengulpinar@gmail.com</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+      </div>
+  </div>
+</div>
+<div>
+</div>
+
+<script>
+    const btn = document.getElementById('button');
+
+document.getElementById('form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btn.value = 'Sending...';
+
+   const serviceID = 'service_17155014';
+   const templateID = 'template_ahl7ak2';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Send Email';
+      alert('Mesajınız Gönderildi, Teşekkürler!');
+    }, (err) => {
+      btn.value = 'Send Email';
+      alert(JSON.stringify(err));
+    });
+});
+</script>
+
+
+
+
+
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('user_Yrsz51izV90OfCEHmiYCJ') // """ EmailJS mail service USER ID."""
+</script>
+
+        
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
