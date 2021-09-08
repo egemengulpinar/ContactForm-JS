@@ -30,7 +30,7 @@ Open `Visual Studio Code` or similar code editor  and import `contact_form.html`
 Now, it should to be configure with e-mail service. (I was used `EmailJS` service)
 
 #### Configure EmailJS Service with Contact Form
-First, open an new account on EmailJS
+First, open a new account on EmailJS
 
 Integrate your e-mail account with EmailJS and authorize the options.
 
