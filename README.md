@@ -62,6 +62,16 @@ just change **`"user_Yrsxxxxxxxxx"`*** information.
 ![Logo](https://www.linkpicture.com/q/contact_form_screenshot2.png)
 
 
+
+
+`const serviceID` and `const templateID` should be enter from your EmailJS **Email Templates** and **Email Services** tabs information.
+
+
+Finally, paste the **<script> ... </script>** codes to project(*In my contact form they are already included, just change **`"user_Yrsxxxxxxxx"`***)
+
+
+
+
 ```
 <script>
    ...
@@ -81,10 +91,3 @@ just change **`"user_Yrsxxxxxxxxx"`*** information.
 </script>
 
 ```
-
-
-`const serviceID` and `const templateID` should be enter from your EmailJS **Email Templates** and **Email Services** tabs information.
-
-
-Finally, paste the **<script> ... </script>** codes to project(*In my contact form they are already included, just change **`"user_Yrsxxxxxxxx"`***)
-
