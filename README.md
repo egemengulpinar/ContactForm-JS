@@ -1,4 +1,4 @@
-# Create Contact From - JavaScript
+# Create Contact Form - JavaScript
 Only using with JavaScript and HTML, we can create a minimal contact form that we will use it everywhere.
 It can implement easly to all web sites and blogs. Just following instructions and implement it on website correctly.
 
