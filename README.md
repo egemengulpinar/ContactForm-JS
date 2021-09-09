@@ -22,7 +22,7 @@ It can implement easly to all web sites and blogs. Just following instructions a
 Clone the project
 
 ```bash
-  git clone https://github.com/egemengulpinar/ContactFrom-JS.git
+  git clone https://github.com/egemengulpinar/ContactForm-JS.git
 ```
 
 
