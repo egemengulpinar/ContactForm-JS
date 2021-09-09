@@ -15,7 +15,7 @@ It can implement easly to all web sites and blogs. Just following instructions a
 
 
 
-![Alt Text](https://media.giphy.com/media/WhJVGFvjj4ZI1BAZxL/source.gif?cid=790b7611cf1034fef9d898d33abeac140cdbf3e139f1e01a&rid=source.gif&ct=g)
+![Alt Text](https://media.giphy.com/media/CC7Dr8AnXujxxexmJS/source.gif?cid=790b7611239b60dcba67c80fa2db550fe7de0e6bed5c241d&rid=source.gif&ct=g)
   
 ## Using & Run 
 
